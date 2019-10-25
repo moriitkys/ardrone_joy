@@ -1,0 +1,4 @@
+<launch>
+  <node name="joy_node" pkg="joy" type="joy_node" output="screen" />
+  <node name="ArdroneJoy" pkg="ardrone_joy" type="ardrone_joy.py" output="screen" />
+</launch>
